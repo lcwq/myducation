@@ -18,7 +18,7 @@
 
 
 			<!-- <scroll-view class="scroll-view_H" scroll-x="true" @scroll="scroll" scroll-left="0"> -->
-
+         
 			<view v-for="(item,index) in titleitems" :key="index" id="demo1" class="scroll-view-item_H uni-bg-red" @click="buttononclick"
 			 :data-buttonId="index">
 				<image class=" " :src="item.continue"> </image>
@@ -32,6 +32,9 @@
 			<!-- </scroll-view> -->
 			<view class="tit">
 				精品推荐
+			</view>
+			 <view v-for="(item,index)" in bigItem>
+						  
 			</view>
 			<view class="contentStyle" v-for="(item,index) in jsonData" :key="index" :style="{'background-color':item.color }">
 				<view class="leftstyle">
@@ -95,6 +98,21 @@
 					continue: "../../static/banner3.png",
 					url: "https://all-dream.com/nviews/mobile/html/appoint.html",
 				}],
+				bigItem: [{
+					mode: "scaleToFill",
+					continue: "../../static/banner1.png",
+					url: "http://hi.joyskid.cn/reg2019.aspx?id=117",
+				
+				
+				}, {
+					mode: "scaleToFill",
+					continue: "../../static/banner2.png",
+					url: "http://www.landi.com/Api/FloorPage/index?from=dtwl&param=_byP0ifmx2Xb2qHEDcS2FfHtrYF3wOi8p9a0",
+				}, {
+					mode: "scaleToFill",
+					continue: "../../static/banner3.png",
+					url: "https://all-dream.com/nviews/mobile/html/appoint.html",
+				}],
 				titleitems: [{
 						mode: "scaleToFill",
 						continue: "../../static/icon1.png",
@@ -130,6 +148,18 @@
 						url: "https://b.pingan.com.cn/creditcard/huodong/wxzxbkaqy4/index.shtml",
 						name: "美术"
 					},
+					{
+						mode: "scaleToFill",
+						continue: "../../static/icon6.png",
+						url: "https://b.pingan.com.cn/creditcard/huodong/wxzxbkaqy4/index.shtml",
+						name: "美术"
+					},
+					{
+						mode: "scaleToFill",
+						continue: "../../static/icon6.png",
+						url: "https://b.pingan.com.cn/creditcard/huodong/wxzxbkaqy4/index.shtml",
+						name: "美术"
+					}
 				],
 				//精品
 				jsonData: [{
