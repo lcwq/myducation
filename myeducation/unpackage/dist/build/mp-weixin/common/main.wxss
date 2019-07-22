@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.contentStyle{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 90%;
+	height: 300rpx;
+	margin-top: 20rpx;
+	margin-left: 5%;
+	margin-right: 5%;
+    border-radius: 8px;
+	z-index: 100;
+	/* background-color: #ffccff; */
+}
+.imgUrlstyle
+{
+	height: 176rpx;
+	width: 280rpx;
+	margin: 10rpx;
+}
+.contentStyle-price{
+	 color:#FF1493;
+	 font-size: 22rpx;
+	 font-weight: bold;
+	 margin-left: 30rpx;
+	 margin-top: -10rpx;
+}
+.starstyle{
+	margin: 15rpx;
+	margin-left: 30rpx;
+}
+.leftstyle{
+	display: block;
+}
+.rightstyle{
+	display: block;
+}
+.rightstyle-icon{
+	width: 52rpx;
+	height: 53rpx;
+	margin: 20rpx;
+	/* display: inline-block */
+	display: block;
+}
+.rightstyle-title{
+	/* display: inline-block; */
+	margin-top: -72rpx;
+	margin-left: 100rpx;
+	font-size: 31rpx;
+	font-weight:bold
+}
+.rightstyle-des{
+	margin: 20rpx;
+	font-size: 23rpx;
+	height: 130rpx;
+	/* width: 58%; */
+}
+.buttonstyle{
+	/* display: block; */
+	width: 150rpx;
+	height:45rpx;
+	margin-left: 120rpx;
+	/* margin-bottom: 30upx; */
+}
+
